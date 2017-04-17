@@ -1,7 +1,7 @@
 (function() {
   //preloader
   $(window).load(function() {
-    $('#preloader').delay(1000).fadeOut('slow');
+    $('#preloader').delay(500).fadeOut('slow');
   });
 
   // detect if IE
@@ -199,7 +199,7 @@
   $('.gmap').mobileGmap({
     markers: [{
       position: 'center',
-      info: '121 S Pinckney St',
+      info: 'Current Location',
       showInfo: true
     }]
   });

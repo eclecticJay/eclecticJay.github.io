@@ -143,7 +143,7 @@
 
   // Typed Js
   $(".element").typed({
-    strings: ["I'm Web Developer", "I'm Web Designer"],
+    strings: ["I'm Web Developer", "I'm Software Developer"],
     typeSpeed: 1,
     backSpeed: 1,
     backDelay: 1000,
@@ -151,7 +151,7 @@
   });
 
   $(".sub-title").typed({
-    strings: ["Web Developer", "Web Designer"],
+    strings: ["Web Developer", "Software Developer"],
     typeSpeed: 1,
     backSpeed: 1,
     backDelay: 1400,
